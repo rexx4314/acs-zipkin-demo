@@ -1,0 +1,27 @@
+### Zipkin 기본 테스트
+GET http://localhost:18081/zipkin-test
+###
+
+### ID 기반 조회 테스트
+GET http://localhost:18081/zipkin-test/123
+###
+
+### 오류 발생 테스트
+GET http://localhost:18081/zipkin-test/error
+###
+
+### 비동기 작업 테스트
+GET http://localhost:18081/zipkin-async
+###
+
+### 내부 서비스 호출 테스트
+GET http://localhost:18081/zipkin-service-interaction
+###
+
+### 지연된 응답 테스트
+GET http://localhost:18081/zipkin-delay
+###
+
+### 외부 API 호출 테스트
+GET http://localhost:18081/zipkin-external
+###
